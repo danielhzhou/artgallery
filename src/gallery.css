@@ -19,6 +19,18 @@
     filter: opacity(.8);
 }
 
+@media (max-width: 99999999px) {
+    .gallery {
+        -webkit-column-count:3;
+        -moz-column-count:3;
+        column-count:3;
+        -webkit-column-width: 33%;
+        -moz-column-width: 33%;
+        column-width: 33%;
+        padding: 0 12px;
+    }
+}
+
 @media (max-width: 991px) {
     .gallery{
         -webkit-column-count:2;
