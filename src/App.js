@@ -4,7 +4,7 @@ import Gallery from './Gallery'
 function App() {
   return (
     <>
-    <h1 style={{textAlign: 'center'}}>Daniel's Art Gallery</h1>
+    <h1 style={{textAlign: 'center'}}>Daniel's Art Gallery - Verified Access</h1>
     <Gallery />
     </>
   )
